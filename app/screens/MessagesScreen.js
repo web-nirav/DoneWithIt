@@ -2,15 +2,19 @@ import React, { useState } from "react";
 import { StyleSheet, FlatList } from "react-native";
 
 import Screen from "../components/Screen";
-import ListItem from "../components/ListItem";
-import ListItemDeleteAction from "../components/ListItemDeleteAction";
-import ListItemSeparator from "../components/ListItemSeparator";
+import {
+  ListItem,
+  ListItemDeleteAction,
+  ListItemSeparator,
+} from "../components/lists";
 
 const initialMessages = [
   {
     id: 1,
-    title: "Nilu one",
-    description: "Hello there",
+    title:
+      "Nilu one testing with longer line of text to see how it looks in device",
+    description:
+      "Hello there, I am fine there how are you also bro bra breeeeee okay never mind, again testing longer text for description, thanks a lot.",
     image: require("../../assets/nilu.jpg"),
   },
   {
