@@ -18,9 +18,15 @@ const listings = [
     price: 1000,
     image: require("../../assets/couch.jpg"),
   },
+  {
+    id: 3,
+    title: "Repeat Red jacket for sale",
+    price: 1000,
+    image: require("../../assets/jacket.jpg"),
+  },
 ];
 
-function ListingsScreen(props) {
+const ListingsScreen = (props) => {
   return (
     <Screen style={styles.screen}>
       <FlatList
@@ -36,7 +42,7 @@ function ListingsScreen(props) {
       />
     </Screen>
   );
-}
+};
 
 const styles = StyleSheet.create({
   screen: {
