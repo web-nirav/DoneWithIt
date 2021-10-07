@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 
 const AppNavigator = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator initialRouteName="Feed">
       <Tab.Screen
         name="Feed"
         component={FeedNavigator}
