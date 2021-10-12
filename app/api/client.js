@@ -2,7 +2,7 @@ import { create } from "apisauce";
 import cache from "../utility/cache";
 
 const apiClient = create({
-  baseURL: "https://4aa5-42-106-9-194.ngrok.io/api",
+  baseURL: "https://9b0f-2402-3a80-85b-acb1-81b3-dd71-619-f2e1.ngrok.io/api",
 });
 
 // to implement cache, we will overwrite "get" method of apiClient and then export apiClient
